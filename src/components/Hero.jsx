@@ -28,7 +28,10 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className={`right flex-1 bg-[url('./src/assets/hero-bg.jpg')]`}>
+      <div
+        className="right flex-1"
+        style={{ backgroundImage: "url('images/hero-bg.jpg')" }}
+      >
         {/* <img className="w-full h-full" src={HeroImg} alt="hero-img" /> */}
       </div>
     </div>
