@@ -4,6 +4,9 @@
 
 @layer base {
   h1 {
-    @apply text-[74px] text-[#111111] font-semibold leading-[85px] capitalize tracking-[-0.02em];
+    @apply font-manrope text-[74px] text-dark font-bold leading-[85px] capitalize tracking-[-0.02em] mb-[30px];
+  }
+  p {
+    @apply font-manrope font-light  text-[19px] leading-[44px] tracking-[0.02em]  text-dark-100;
   }
 }

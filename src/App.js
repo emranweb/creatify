@@ -1,5 +1,13 @@
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+
 function App() {
-  return <h1 className="h1">Hello World</h1>;
+  return (
+    <div>
+      <Header />
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
