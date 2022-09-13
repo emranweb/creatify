@@ -4,9 +4,21 @@
 
 @layer base {
   h1 {
-    @apply font-manrope text-[74px] text-dark font-bold leading-[85px] capitalize tracking-[-0.02em] mb-[30px];
+    @apply font-manrope text-[74px] text-dark font-bold leading-[85px] capitalize tracking-[-0.02em] mb-[30px] xl:text-[48px] xl:leading-[64px] xl:mb-[20px];
   }
   p {
     @apply font-manrope font-light  text-[19px] leading-[44px] tracking-[0.02em]  text-dark-100;
+  }
+}
+
+@media (max-width: 1536px) {
+  .hero {
+    background-size: auto, 50%;
+  }
+}
+@media (max-width: 1023px) {
+  .hero {
+    background-size: auto, 100%;
+    background-position: left top, bottom center !important;
   }
 }
