@@ -5,7 +5,7 @@ import arrowRight from "../assets/arrow-right.svg";
 const Hero = () => {
   return (
     <div
-      className="hero w-full h-full bg-no-repeat pt-[270px] pb-[180px] 2xl:pt-[200px] 2xl:pb-[60px] xl:pt-[150px] xl:pb-[30px] lg:pb-[840px] md:pb-[640px] sm:pb-[500px]"
+      className="hero w-full h-full bg-no-repeat pt-[270px] pb-[180px] 2xl:pt-[200px] 2xl:pb-[60px] xl:pt-[150px] xl:pb-[30px] lg:pb-[840px] md:pb-[640px] sm:pb-[500px] bg-[#FAFBFC]"
       style={{
         backgroundImage: "url('images/pattern.svg'), url('images/hero-bg.jpg')",
         backgroundPosition: "left top, right top",

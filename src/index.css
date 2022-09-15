@@ -9,6 +9,12 @@
   p {
     @apply font-manrope font-light  text-[19px] leading-[44px] tracking-[0.02em]  text-dark-100;
   }
+  .sub-title {
+    @apply flex text-[18px] tracking-[0.2em] uppercase text-dark mb-[40px] xl:mb-[20px];
+  }
+  h2 {
+    @apply text-[52px] font-bold leading-[75px] tracking-[-0.02em] text-dark font-manrope md:text-[32px] md:leading-[45px];
+  }
 }
 
 @media (max-width: 1536px) {
