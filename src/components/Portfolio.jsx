@@ -16,7 +16,7 @@ const Portfolio = () => {
     <div className="py-[200px]">
       <div className="container">
         <div className="text-center">
-          <LineTitle>portfolio</LineTitle>
+          <LineTitle css="items-center justify-center">portfolio</LineTitle>
           <h2 className="mb-[70px]">Latest Works</h2>
           <ul className="flex text-[16px] leading-[34px] font-manrope uppercase tracking-[0.1em] justify-center space-x-12 font-semibold mb-16">
             <li>all</li>
