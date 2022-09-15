@@ -1,6 +1,7 @@
 import React from "react";
 import Line from "../assets/line.svg";
 import Button from "./Button";
+import LineTitle from "./LineTitle";
 
 const Info = () => {
   return (
@@ -8,10 +9,7 @@ const Info = () => {
       <div className="container">
         <div className="flex lg:flex-col">
           <div className="w-1/2 lg:w-full lg:mb-[50px]">
-            <h4 className="sub-title">
-              <img className="mr-[20px]" src={Line} alt="line" />
-              who am i
-            </h4>
+            <LineTitle>Who i am</LineTitle>
             <h2>
               I'm Art Director & Brand Designer based in Los Angeles, USA.
             </h2>
