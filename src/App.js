@@ -1,4 +1,6 @@
 import Awards from "./components/Awards";
+import Blog from "./components/Blog";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Info from "./components/Info";
@@ -16,6 +18,8 @@ function App() {
       <Portfolio />
       <Testimonial />
       <Awards />
+      <Blog />
+      <Footer />
     </div>
   );
 }
