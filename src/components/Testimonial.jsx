@@ -4,9 +4,9 @@ import TestimonialPerson from "../assets/testimonial-person.jpg";
 
 const Testimonial = () => {
   return (
-    <div className="flex space-x-[140px] items-center bg-[#FAFBFC]">
+    <div className="flex sm:my-[30px] sm:py-[60px] lg:flex-col space-x-[140px] lg:space-x-0  items-center bg-[#FAFBFC]">
       <img src={TestimonialPerson} alt="testimonial person" />
-      <div>
+      <div className="pr-8 lg:pl-8 lg:mt-8">
         <LineTitle>testimonials</LineTitle>
         <h5 className="text-[29px] leading-[53px] tracking-[0.01em]  font-normal font-manrope text-dark mt-[50px] mb-[24px]">
           “Lorem ipsum dolor sit amet, elit consectetur adipiscing. Odio

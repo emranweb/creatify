@@ -5,7 +5,7 @@ import LineTitle from "./LineTitle";
 
 const Info = () => {
   return (
-    <div className="pt-[230px] pb-[250px] xl:pt-[200px] xl:pb-[200px] md:pt-[150px] md:mb-[150px]">
+    <div className="pt-[230px] sm:pt-[120px] sm:pb-[120px] pb-[250px] xl:pt-[200px] xl:pb-[200px] md:pt-[150px] md:mb-[150px] sm:mb-[50px] ">
       <div className="container">
         <div className="flex lg:flex-col">
           <div className="w-1/2 lg:w-full lg:mb-[50px]">

@@ -3,7 +3,7 @@ import LineTitle from "./LineTitle";
 import ProgressBar from "./ProgressBar";
 const Skill = () => {
   return (
-    <div className="pt-[230px] pb-[250px] xl:pt-[200px] xl:pb-[200px] md:pt-[150px] md:mb-[150px] bg-[#FAFBFC]">
+    <div className="pt-[60px] lg:pt-[60px] sm:pb-[60px] pb-[250px] xl:pt-[200px] xl:pb-[200px] md:pt-[120px] md:mb-[150px] bg-[#FAFBFC]">
       <div className="container">
         <div className="flex lg:flex-col">
           <div className="w-1/2 lg:w-full lg:mb-[50px]">

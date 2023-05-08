@@ -13,12 +13,12 @@ import Button from "./Button";
 
 const Portfolio = () => {
   return (
-    <div className="py-[200px]">
+    <div className="py-[200px] sm:py-[60px]">
       <div className="container">
         <div className="text-center">
           <LineTitle css="items-center justify-center">portfolio</LineTitle>
           <h2 className="mb-[70px]">Latest Works</h2>
-          <ul className="flex text-[16px] leading-[34px] font-manrope uppercase tracking-[0.1em] justify-center space-x-12 font-semibold mb-16">
+          <ul className="flex text-[16px] leading-[34px] font-manrope uppercase tracking-[0.1em] justify-center space-x-12 sm:space-x-0 font-semibold mb-16">
             <li>all</li>
             <li>magazines</li>
             <li>package</li>
@@ -26,7 +26,7 @@ const Portfolio = () => {
             <li>web</li>
             <li>logo</li>
           </ul>
-          <div className="columns-3 gap-4">
+          <div className="columns-3 gap-4 sm:gap-2 sm:columns-2">
             <img
               src={GridImage1}
               className="w-full aspect-video mb-4"

@@ -8,7 +8,7 @@ const Blog = () => {
       <div className="container">
         <LineTitle />
         <h2 className="mb-[80px]">Latest News</h2>
-        <div className="columns-4">
+        <div className="columns-4 lg:columns-2">
           <BlogItem>Graphic Designing Useful Tips & Best Practices</BlogItem>
           <BlogItem>basic typography rules for ui designing</BlogItem>
           <BlogItem>top 10 graphic designs review in 2021</BlogItem>

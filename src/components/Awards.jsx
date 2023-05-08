@@ -8,7 +8,7 @@ const Awards = () => {
       <div className="container">
         <LineTitle>awards</LineTitle>
         <h2 className="mb-[60px]">Awards & Recognition</h2>
-        <div className="columns-3">
+        <div className="columns-3 lg:columns-2">
           <Feature
             title="Interior design"
             text="Breakthrough designer of the year 2020"
