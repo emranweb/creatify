@@ -9,19 +9,19 @@ import Skill from "./components/Skill";
 import Testimonial from "./components/Testimonial";
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <Hero />
-      <Info />
-      <Skill />
-      <Portfolio />
-      <Testimonial />
-      <Awards />
-      <Blog />
-      <Footer />
-    </div>
-  );
+    return (
+        <div>
+            <Header />
+            <Hero />
+            <Info />
+            <Skill />
+            <Portfolio />
+            <Testimonial />
+            <Awards />
+            <Blog />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;

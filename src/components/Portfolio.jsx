@@ -12,72 +12,74 @@ import GridImage9 from "../assets/grid-layout-9.jpg";
 import Button from "./Button";
 
 const Portfolio = () => {
-  return (
-    <div className="py-[200px] sm:py-[60px]">
-      <div className="container">
-        <div className="text-center">
-          <LineTitle css="items-center justify-center">portfolio</LineTitle>
-          <h2 className="mb-[70px]">Latest Works</h2>
-          <ul className="flex text-[16px] leading-[34px] font-manrope uppercase tracking-[0.1em] justify-center space-x-12 sm:space-x-0 font-semibold mb-16">
-            <li>all</li>
-            <li>magazines</li>
-            <li>package</li>
-            <li>branding</li>
-            <li>web</li>
-            <li>logo</li>
-          </ul>
-          <div className="columns-3 gap-4 sm:gap-2 sm:columns-2">
-            <img
-              src={GridImage1}
-              className="w-full aspect-video mb-4"
-              alt="cup"
-            />
-            <img
-              src={GridImage2}
-              className="w-full aspect-square mb-4"
-              alt="cup"
-            />
-            <img
-              src={GridImage3}
-              className="w-full aspect-video mb-4"
-              alt="cup"
-            />
-            <img
-              src={GridImage4}
-              className="w-full aspect-square mb-4"
-              alt="cup"
-            />
-            <img
-              src={GridImage5}
-              className="w-full aspect-video mb-4"
-              alt="cup"
-            />
-            <img
-              src={GridImage6}
-              className="w-full aspect-video mb-4"
-              alt="cup"
-            />
-            <img
-              src={GridImage7}
-              className="w-full aspect-video mb-4"
-              alt="cup"
-            />
-            <img
-              src={GridImage8}
-              className="w-full aspect-square mb-4"
-              alt="cup"
-            />
-            <img
-              src={GridImage9}
-              className="w-full aspect-video mb-4"
-              alt="cup"
-            />
-          </div>
-          <Button css="mt-[70px]">View all Works</Button>
+    return (
+        <div className="py-[200px] sm:py-[60px]">
+            <div className="container">
+                <div className="text-center">
+                    <LineTitle css="items-center justify-center">
+                        portfolio
+                    </LineTitle>
+                    <h2 className="mb-[70px]">Latest Works</h2>
+                    <ul className="flex text-[16px] leading-[34px] font-manrope uppercase tracking-[0.1em] justify-center space-x-12 sm:space-x-0 font-semibold mb-16">
+                        <li>all</li>
+                        <li>magazines</li>
+                        <li>package</li>
+                        <li>branding</li>
+                        <li>web</li>
+                        <li>logo</li>
+                    </ul>
+                    <div className="columns-3 gap-4 sm:gap-2 sm:columns-2">
+                        <img
+                            src={GridImage1}
+                            className="w-full aspect-video mb-4"
+                            alt="cup"
+                        />
+                        <img
+                            src={GridImage2}
+                            className="w-full aspect-square mb-4"
+                            alt="cup"
+                        />
+                        <img
+                            src={GridImage3}
+                            className="w-full aspect-video mb-4"
+                            alt="cup"
+                        />
+                        <img
+                            src={GridImage4}
+                            className="w-full aspect-square mb-4"
+                            alt="cup"
+                        />
+                        <img
+                            src={GridImage5}
+                            className="w-full aspect-video mb-4"
+                            alt="cup"
+                        />
+                        <img
+                            src={GridImage6}
+                            className="w-full aspect-video mb-4"
+                            alt="cup"
+                        />
+                        <img
+                            src={GridImage7}
+                            className="w-full aspect-video mb-4"
+                            alt="cup"
+                        />
+                        <img
+                            src={GridImage8}
+                            className="w-full aspect-square mb-4"
+                            alt="cup"
+                        />
+                        <img
+                            src={GridImage9}
+                            className="w-full aspect-video mb-4"
+                            alt="cup"
+                        />
+                    </div>
+                    <Button css="mt-[70px]">View all Works</Button>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default Portfolio;
